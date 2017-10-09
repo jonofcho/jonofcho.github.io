@@ -2,12 +2,6 @@ $(document).ready(function(){
   var nav = $('.js-theme__nav');
   var navHeight = nav.height();
 
-  // $('.js-index__hero').pushpin({
-  //   top: 0,
-  //   bottom: 400,
-  //   offset: 0,
-  // });
-
   if ($(window).scrollTop() < navHeight) {
     nav.removeClass('theme__nav--transition');
   }
@@ -24,6 +18,10 @@ $(document).ready(function(){
       nav.removeClass('theme__nav--transition')
       imageProfile.removeClass('opacity-on');
     }
+  })
+
+  $('.js-pprint').on('click', function(){
+
   })
 
 })

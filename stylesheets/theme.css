@@ -38,7 +38,9 @@
 .bg-transparent{
   background-color: transparent;
 }
-
+.text-w{
+  color: white;
+}
 .text-m{
   color: #AF4034;
 }
@@ -75,6 +77,18 @@
 }
 .mbot-30{
   margin-bottom: 30px;
+}
+.mleft-15{
+  margin-left: 15px;
+}
+.mleft-30{
+  margin-left: 30px;
+}
+.mright-15{
+  margin-right: 15px;
+}
+.right-30{
+  margin-right: 30px;
 }
 
 

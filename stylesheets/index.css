@@ -6,20 +6,12 @@
   box-shadow: none;
   padding: 0 45px;
 }
-.index__hero--image--container{
-  width: 450px;
-}
-.index__hero.pinned{
-  width: 100%;
-}
-.hero-image__filler{
-  width: 450px;
-}
-.hero-image__profile{
-  width: 200px;
-}
 
-
+.index__hero--container{
+  background-image: url('https://static1.squarespace.com/static/52327cc4e4b0d03caffb90f7/58a91c0f2994ca3986a1ae32/58a91f5fe4fcb58d2b063596/1489022354762/POH_10001.jpg?format=1500w');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .index__hero-text{
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
