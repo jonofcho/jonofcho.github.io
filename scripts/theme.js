@@ -21,7 +21,7 @@ $(document).ready(function(){
   })
 
   $('.js-pprint').on('click', function(){
-
+    $('.js-about__pprint').slideDown();
   })
 
 })

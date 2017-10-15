@@ -7,12 +7,30 @@
   padding: 0 45px;
 }
 
+.tech__item--image{
+  width: 150px;
+}
+.index__about{
+  transition: .3s ease all;
+}
+.index__about--pprint{
+  background-color: black;
+  color: white;
+  display: none;
+  animation:
+    typing 3.5s steps(1000, end),
+    blink-caret .3s step-end infinite;
+}
+.index__about--container{
+  font-family: monospace;
+}
 .index__hero--container{
-  background-image: url('https://static1.squarespace.com/static/52327cc4e4b0d03caffb90f7/58a91c0f2994ca3986a1ae32/58a91f5fe4fcb58d2b063596/1489022354762/POH_10001.jpg?format=1500w');
+  /*background-image: url('https://static1.squarespace.com/static/52327cc4e4b0d03caffb90f7/58a91c0f2994ca3986a1ae32/58a91f5fe4fcb58d2b063596/1489022354762/POH_10001.jpg?format=1500w');*/
   background-size: cover;
   background-repeat: no-repeat;
 }
 .index__hero-text{
+  font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
