@@ -5,10 +5,15 @@ $(document).ready(function(){
     nav.removeClass('theme__nav--transition');
   }
 
+  var options = [
+    {
+      selector: '.js-index__about--icon', offset: 200, callback: function(el) {
+        $(el).removeClass("scale-out");
+      }
+    }
+  ];
+  Materialize.scrollFire(options);
 
-  // $('.js-pprint').on('click', function(){
-  //   $('.js-about__print').;
-  //   $('.js-about__pprint').fadeIn();
-  // })
+
 
 })
