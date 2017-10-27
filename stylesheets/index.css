@@ -1,10 +1,36 @@
+.input-field input[type=text]:focus + label {
+  color: white;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 0 0 white;
+}
+.input-field textarea:focus {
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 0 0 white;
+}
+.theme__footer--contact{
+  width: 10%;
+}
+.modal{
+  max-height: 80%;
+}
+.modal.modal-fixed-footer{
+  height: 80%;
+}
+.bg-hero{
+  background-image: url('https://static.pexels.com/photos/436784/pexels-photo-436784.jpeg');
+}
 .theme__nav{
   position: fixed;
   z-index: 5;
 }
 .theme__nav--transition{
+  color: #063042;
   box-shadow: none;
   padding: 0 45px;
+  background-color: white;
 }
 
 .tech__item--image{
@@ -16,6 +42,7 @@
 }
 .index__about--icon{
   height: 80px;
+  cursor: pointer;
 }
 .index__about--icon i{
   font-size: 50px;
@@ -59,7 +86,15 @@
 /*.index__hero--image{
   width
 }*/
+.index__about--icon:hover{
+  -ms-transform: translate(0px, -5px); /* IE 9 */
+  -webkit-transform: translate(0px, -5px); /* Safari */
+  transform: translate(0px, -5px); /* Standard syntax */
+}
 
+.tech__img--container{
+  /*max-width: 250px;*/
+}
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
