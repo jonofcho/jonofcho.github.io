@@ -29,7 +29,8 @@ $(document).ready(function(){
       $('.index__tech--styling').hide();
     }
     else if (that.hasClass('js-index__about--icon--2')) {
-
+      Materialize.toast('Nothing very notable for now.', 3000);
+      return false;
     }
     else {
       return false;
@@ -53,6 +54,12 @@ $(document).ready(function(){
         $(el).removeClass("scale-out");
       }
     },
+    {
+      selector: '.index__profile--list', offset: 200, callback: function(el) {
+        Materialize.showStaggeredList($(el))
+      }
+
+    }
   ];
   Materialize.scrollFire(options);
   // $('.js-pprint').on('click', function(){
@@ -70,4 +77,17 @@ $(document).ready(function(){
   }).on('mouseleave', function(){
     Materialize.Toast.removeAll();
   })
+
+  var $imgPosition = $('.index__profile--container').offset().top;
+  var imgStop = $('.index__profile--container').offset();
+  var $windowHeight = $(window).height() / 2;
+  // console.log($windowHeight);
+  // console.log(imgStop);
+  $('.index__img').pushpin({
+    top: $imgPosition,
+    bottom: $('.theme__footer').offset().top - $windowHeight,
+    offset: $windowHeight
+  });
+
+  $('.scrollspy').scrollSpy();
 })

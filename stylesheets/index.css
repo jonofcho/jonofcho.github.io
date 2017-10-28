@@ -1,4 +1,17 @@
-
+.index__profile--list li{
+  opacity: 0;
+}
+.index__profile--header{
+  height: 80px;
+}
+.index__img{
+  width: 250px;
+  height: 250px;
+}
+.index__img--mob{
+  width: 250px;
+  height: 250px;
+}
 .theme__footer--contact{
   width: 10%;
 }
@@ -20,6 +33,7 @@
   box-shadow: none;
   padding: 0 45px;
   background-color: white;
+  opacity: 0.9;
 }
 
 .tech__item--image{
@@ -51,9 +65,7 @@
     typing 3.5s steps(1000, end),
     blink-caret .3s step-end infinite;
 }
-.index__about--container{
 
-}
 .index__hero--container{
   /*background-image: url('https://static1.squarespace.com/static/52327cc4e4b0d03caffb90f7/58a91c0f2994ca3986a1ae32/58a91f5fe4fcb58d2b063596/1489022354762/POH_10001.jpg?format=1500w');*/
   background-size: cover;

@@ -7,6 +7,25 @@
   <link rel="stylesheet" href="./stylesheets/theme.css">
   <link rel="stylesheet" href="./stylesheets/index.css">
 </head>
+<!-- WILL CONVERT TO REACT -->
+<!-- #########NO IT IS NOT A TEMPLATE -->
+
+<!-- M"""""""`YM            dP
+M  mmmm.  M            88
+M  MMMMM  M .d8888b. d8888P    .d8888b.
+M  MMMMM  M 88'  `88   88      88'  `88
+M  MMMMM  M 88.  .88   88      88.  .88
+M  MMMMM  M `88888P'   dP      `88888P8
+MMMMMMMMMMM
+
+M""""""""M                              dP            dP
+Mmmm  mmmM                              88            88
+MMMM  MMMM .d8888b. 88d8b.d8b. 88d888b. 88 .d8888b. d8888P .d8888b.
+MMMM  MMMM 88ooood8 88'`88'`88 88'  `88 88 88'  `88   88   88ooood8
+MMMM  MMMM 88.  ... 88  88  88 88.  .88 88 88.  .88   88   88.  ...
+MMMM  MMMM `88888P' dP  dP  dP 88Y888P' dP `88888P8   dP   `88888P'
+MMMMMMMMMM                     88
+                               dP                                  -->
 <body class="theme__index--container">
   <nav class="js-theme__nav theme__nav transition flex align-center justify-between bg-transparent psides-15 theme__nav--transition">
     <div class="nav__logo">
@@ -14,23 +33,23 @@
     </div>
     <div class="nav__directory">
       <ul class="flex">
-        <li><a class="text-bold text-navy" href="#">About</a></li>
-        <li><a class="text-bold text-navy" href="#">Work</a></li>
-        <li><a class="text-bold text-navy" href="#">Contact</a></li>
+        <li><a class="text-bold text-navy" href="#about">About</a></li>
+        <li><a class="text-bold text-navy" href="#work">Work</a></li>
+        <li><a class="text-bold text-navy" href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
 
   <div class="js-index__hero--container index__hero--container flex align-center height--full--view bg-hero">
     <div class="index__hero--wrapper psides-45">
-      <h1 class="text-w">Jonathan Cho</h1>
-      <h3 class="index__hero-text text-w">listening on port: 3000</h3>
+      <h1 class="text-w flow-text">Jonathan Cho</h1>
+      <h3 class="index__hero-text text-w flow-text">listening on port: 3000</h3>
     </div>
   </div>
 
 
   <div class=" index__main-content--container">
-    <div class="index__about--container ptop-30">
+    <div class="index__work--container ptop-30" id="work">
       <div class="row">
         <div class="col s12 m12 l4">
           <div class="index__about--one">
@@ -68,13 +87,13 @@
               <div class="waves-effect waves-light bg-yellow flex align-center justify-center z-depth-3 index__about--icon js-index__about--icon--2 js-index__modal--trigger text-center scale-transition scale-out">
                 <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/108491-200.png" alt="">
               </div>
-              <div class="index__indicator--container center-align mtop-10">
+              <div class="opacity-off index__indicator--container center-align mtop-10">
                 <i class="fa fa-arrow-up" aria-hidden="true"></i>
               </div>
-              <h4 class="text-bold text-center">Strategy/Project Management</h4>
+              <h4 class="text-bold text-center">Project Management</h4>
               <p class="text-g index__about--text">Uncountable attempts trying to rally my friends in creating the next great Startup</p>
               <p class="text-g index__about--text">No professional experience but enough personal attempts to understand the drive and expectations of a project manager.</p>
-              <p class="text-g index__about--text">I'm pretty good at chess too.</p>
+
             </div>
           </div>
         </div>
@@ -84,9 +103,9 @@
       <div class="flex align-center justify-center height--full padding-30">
         <div class="index__tech--styling width--full">
           <div class="row">
-            <div class="col s12 l6">
+            <div class="col s12 m12 l6">
               <div class="tech__styling--section tech__styling--0 text-center z-depth-3 padding-15" id="ativegroup">
-                <h4 class="text-bold">ativegroup.com</h4>
+                <h4 class="text-bold text-navy">Ativegroup.com</h4>
                 <div class="tech__img--container">
                   <a href="https://www.ativegroup.com" target="_blank">
                     <img src="https://s3-us-west-2.amazonaws.com/jonofcho/cho_portfolio/ativegroup.JPG" alt="">
@@ -97,9 +116,9 @@
                 </div>
               </div>
             </div>
-            <div class="col s12 l6">
-              <div class="tech__styling--section text__styling--1 text-center z-depth-3 padding-15" id="caseology">
-                <h4 class="text-bold">caseologycases.com</h4>
+            <div class="col s12 m12 l6">
+              <div class="tech__styling--section tech__styling--1 text-center z-depth-3 padding-15" id="caseology">
+                <h4 class="text-bold text-navy">CaseologyCases.com</h4>
                 <div class="tech__img--container">
                   <a href="https://www.caseologycases.com" target="_blank">
                     <img src="https://s3-us-west-2.amazonaws.com/jonofcho/cho_portfolio/caseologycases.JPG" alt="">
@@ -119,32 +138,108 @@
           </div>
         </div>
         <div class="index__tech--scripting">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <div class="row">
+            <div class="col s12 m12 l6">
+              <div class="tech__scripting--section tech__scripting--0 text-center z-depth-3 padding-15 scrollspy" id="caseology">
+                <h4 class="text-bold text-navy">Shopify Price Rule API</h4>
+                <div class="tech__description--container">
+                  <p class="left-align">The current shopify platform limits control over price rules/discounts.</p>
+                  <p class="left-align">I was tasked with creating an API that allowed the user to CRUD discount codes and add the necessary attributes specify which products the codes would be applicable on in a admin-friendly method.</p>
+                  <p class="left-align">Having been messing around with python I decided to build the project with django rest.</p>
+                  <p class="left-align">The project was never taken into production, but you can check out the project at </p><a href="https://github.com/jonofcho/django_rest_api">https://github.com/jonofcho/django_rest_api</a>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m12 l6">
+              <div class="tech__scripting--section tech__scripting--0 text-center z-depth-3 padding-15 scrollspy" id="caseology">
+                <h4 class="text-bold text-navy">Chongdae Website</h4>
+                <div class="tech__description--container">
+                  <p class="left-align">My first full stack project was for the collegiate organization Chongdae that I held the position of VP. </p>
+                  <p class="left-align">We were lacking any sort of website for any of the 15 schools that was scattered across Southern California</p>
+                  <p class="left-align">I took the initiative to create a unifying site that allowed all organizations to create a homepage based off a template and also manage current members.</p>
+                  <p class="left-align">Unfortunately after the site was taken down for maintenance, due to the disorganized nature of the project, my team and I were never able to reboot the project for a redesign.</p>
+                  <p class="left-align">You can check out the project at </p><a href="https://github.com/jonofcho/kasa">https://github.com/jonofcho/kasa</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="index__work--container">
-
+  </div>
+  <div class="index__about--container bg-navy ptop-30 pbot-30" id="about">
+    <div class="row mbot-0">
+      <div class="col l6 flex justify-center hide-on-med-and-down">
+        <img class="index__img circle" src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/19657411_1642439732434176_1253819122747748497_n.jpg?oh=f79f2cec58ad453068215b4312a1f2dd&oe=5A693BCE" alt="">
+      </div>
+      <div class="col s12 flex justify-center hide-on-large-only mbot-30">
+        <img class="index__img--mob circle" src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/19657411_1642439732434176_1253819122747748497_n.jpg?oh=f79f2cec58ad453068215b4312a1f2dd&oe=5A693BCE" alt="">
+      </div>
+      <div class="col s12 m12 l6">
+        <div class="container index__profile--container text-center flex justify-center">
+          <div class="index__profile--inner">
+            <h3 class="flow-text mtop-0 text-bold mbot-30 bg-yellow z-depth-3 index__profile--header flex align-center justify-center">I just wanna build cool stuff.</h3>
+            <ul class="index__profile--list">
+              <li>
+                <div class="left-align">
+                  <h4 class="flow-text text-bold text-yellow">Not your average developer</h4>
+                  <p class="text-w text-bold">Though a nerd at heart I'm not afraid of sunshine and people.</p>
+                  <p class="text-w text-bold">I'm a risk taker and a person passionate about technology.</p>
+                  <p class="text-w text-bold">My ideal profession would be a korean gangster-actor/rapper/skateboarder/data-scientist</p>
+                  <p class="text-w text-bold">I do most of the things I do just to prove to myself that I can.</p>
+                </div>
+              </li>
+              <li>
+                <div class="left-align">
+                  <h4 class="flow-text text-bold text-yellow">Why do I code?</h4>
+                  <p class="text-w text-bold">Code provides an avenue of control and understanding in a world full of girls that I can never seem to understand</p>
+                  <p class="text-w text-bold">Gives me the ability to create anything anyone can imagine.</p>
+                  <p class="text-w text-bold">Put simply, it's fun to see things materialize with a couple strokes of the keyboard</p>
+                </div>
+              </li>
+              <li>
+                <div class="left-align">
+                  <h4 class="flow-text text-bold text-yellow">What I'm not.. for now..</h4>
+                  <p class="text-w text-bold">A designer</p>
+                  <p class="text-w text-bold">This page is probably the pinnacle of anything I've never designed by myself.</p>
+                </div>
+              </li>
+              <li>
+                <div class="left-align">
+                  <h4 class="flow-text text-bold text-yellow">What I want to do in the immediate future</h4>
+                  <p class="text-w text-bold">Get into the professional data-science field and learn how the pro's do it.</p>
+                  <p class="text-w text-bold">Learn how to build automated systems and machines.</p>
+                  <h4 class="flow-text text-bold text-yellow">What I want to do in the far future</h4>
+                  <p class="text-w text-bold">Build systems and machines and propel HUMANITY into the next age.</p>
+                  <p class="text-w text-bold">I do not believe that humans are destined to stay on this planet forever. I want to be part of the team that takes us to the next planet or galaxy.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="theme__footer bg-navy text-w padding-30">
+  <div class="theme__footer text-w padding-30 text-navy scrollspy" id="contact">
     <div class="container">
       <div class="row">
-        <h4 class="text-bold">Jonathan Cho - Javascript/Python Developer</h4>
-        <table class="theme__footer--contact">
-          <tr>
-            <td>Cell:</td>
-            <td>714-388-2989</td>
-          </tr>
-          <tr>
-            <td>Email:</td>
-            <td>jonofcho@gmail.com</td>
-          </tr>
-          <tr>
-            <td>Github:</td>
-            <td>https://github.com/jonofcho</td>
-          </tr>
-        </table>
+        <div class="col s12">
+          <h4 class="flow-text text-bold">Jonathan Cho - Javascript/Python Developer</h4>
+          <table class="theme__footer--contact">
+            <tr>
+              <td>Cell:</td>
+              <td>714-388-2989</td>
+            </tr>
+            <tr>
+              <td>Email:</td>
+              <td>jonofcho@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Github:</td>
+              <td>https://github.com/jonofcho</td>
+            </tr>
+          </table>
+        </div>
       </div>
       <!-- <form class="" action="mailto:jonofcho@gmail.com" method="post" enctype="text/plain">
       <div class="row">
@@ -181,7 +276,7 @@
 <script src="https://use.fontawesome.com/0e3a2dd010.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script> -->
-<script src="./scripts/theme.js"></script>
+<script src="theme.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 </body>
 </html>
